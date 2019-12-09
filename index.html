@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="./img/icon.png">
+    <title>Fila Banco</title>
+    
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+
+<body>
+
+    <div id='container'>
+
+        <img id="icon" src="./img/icon.png" alt="icone-caixa">
+
+        <h3>Simulador Fila de Banco</h3>
+
+        <button id="config" class="collapsible">Configurações Avançadas</button>
+
+        <div class="content">
+            <div class="col2">
+                <label for="guiche"> Quantidade de guiches</label>
+                <input id="guiche" type="text" placeholder="Ex: 3">
+            </div>
+
+            <div class="col2">
+                <label for="horas"> Horas de expediente</label>
+                <input id="horas" type="text" placeholder="Ex: 6">
+            </div>
+
+            <div class="col3">
+                <label for="saque"> Duração de um saque</label>
+                <input id="saque" type="text" placeholder="Ex: 60 (segundos)">
+            </div>
+
+            <div class="col3">
+                <label for="deposito"> Duração de um depósito</label>
+                <input id="deposito" type="text" placeholder="Ex: 90 (segundos)">
+            </div>
+
+            <div class="col3">
+                <label for="pagamento">Duração de um pagamento</label>
+                <input id="pagamento" type="text" placeholder="Ex: 120 (segundos)">
+            </div>
+
+            <div>
+                <h3>Deixe em branco para uma simulação padrão</h3>
+            </div>
+
+        </div>
+
+        <div>
+            <button id="botaoIniciar" class="botao">Começar</button>
+        </div>
+
+    </div>
+
+
+    <script src="./bundle.js"></script>
+    <script src="./request.js"></script>
+</body>
+
+</html>
