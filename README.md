@@ -3,7 +3,7 @@ O mesmo simulador de fila de um banco, dessa vez em JavaScript.
 
 A mesma ideia do projeto em Java, porém, refeito utilizando JS com adição de uma interface. O objetivo foi treinar os conhecimentos adquiridos em ES6 e relembrar um projeto do passado.
 
-**[Clique aqui para testar!](http://www.augustofrr.ga/fila-banco/)**
+**[Clique aqui para testar!](http://augustofrr.com/fila-banco/)**
 
 **[Clique para acessar o projeto antigo, feito em Java.](https://github.com/AugustoFrr/fila-banco)**
 
